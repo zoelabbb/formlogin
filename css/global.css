@@ -35,8 +35,15 @@
   font-size: 12px;
 }
 
-/** H4 Sign In **/
-.textsignin {
+/** Card **/
+.card-header {
   text-align: center;
-  margin-bottom: 35px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.col-12 {
+  margin-top: 200px;
 }
