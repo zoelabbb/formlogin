@@ -1,49 +1,61 @@
 /** Background container-fluid**/
+
 .bg {
-  background: url("../img/mountain2.jpg") no-repeat;
-  width: 100%;
-  height: 100vh;
-  background-size: 100%;
+    background: url("../img/mountain2.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
 }
+
+
 /** Form Container **/
+
 .form-container {
-  position: absolute;
-  top: 15vh;
-  background: #ffffff46;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px #000;
+    position: absolute;
+    top: 15vh;
+    background: #ffffff46;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
 }
+
 
 /** Format Media **/
+
 @media only screen and (max-width: 576px) {
-  /** For Landscape phone 576px and Up**/
-  .bg {
-    background-size: 200%;
-  }
+    /** For Landscape phone 576px and Up**/
+    .bg {
+        background-size: 200%;
+    }
 }
+
 
 /** Form Control Login **/
+
 .form-control {
-  border-radius: 10px;
+    border-radius: 10px;
 }
+
 
 /** Text-muted **/
+
 .text-mute {
-  color: #f71a1a;
-  font-style: italic;
-  font-size: 12px;
+    color: #f71a1a;
+    font-style: italic;
+    font-size: 12px;
 }
 
+
 /** Card **/
+
 .card-header {
-  text-align: center;
+    text-align: center;
 }
 
 .card-title {
-  text-align: center;
+    text-align: center;
 }
 
 .col-12 {
-  margin-top: 200px;
+    margin-top: 200px;
 }
