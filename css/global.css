@@ -51,3 +51,8 @@ body {
 .btn {
     border-radius: 10px;
 }
+
+/** HEADER H$ **/
+.textsignin {
+  text-align: center;
+}
